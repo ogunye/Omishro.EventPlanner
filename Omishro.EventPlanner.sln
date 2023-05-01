@@ -1,0 +1,77 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "backend", "backend", "{C20C233D-226D-4258-9DCC-4B453BF6E078}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{EE82DF4A-B74A-4884-AE38-3ACAC29EEF3F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{6F9AA178-8D55-47E4-AB88-6C3150B42103}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{A52B7ADE-4D2E-44CB-9BAD-E8C14D5F49BC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{F5830340-45FA-4679-8311-E45317EA7E17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Omishro.EventPlanner.Application", "backend\Core\Omishro.EventPlanner.Application\Omishro.EventPlanner.Application.csproj", "{3E5134B5-37FB-4A4F-9B69-2D2E62D74C50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Omishro.EventPlanner.Domain", "backend\Core\Omishro.EventPlanner.Domain\Omishro.EventPlanner.Domain.csproj", "{D7A27F2A-B6EE-4BD1-BE52-B29885496E56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Omishro.EventPlanner.Infrastructure", "backend\Infrastructure\Omishro.EventPlanner.Infrastructure\Omishro.EventPlanner.Infrastructure.csproj", "{80F4AC82-5095-4EFE-AA89-FE2E4A816176}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Omishro.EventPlanner.Persistence", "backend\Infrastructure\Omishro.EventPlanner.Persistence\Omishro.EventPlanner.Persistence.csproj", "{4973DF51-8C29-4492-9717-0FEDED49E6AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Omishro.EventPlanner.Shared", "backend\Shared\Omishro.EventPlanner.Shared\Omishro.EventPlanner.Shared.csproj", "{C1A5E89C-679F-4E8A-82CB-39EF1A79CC25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Omishro.EventPlanner.WebApi", "backend\Presentation\Omishro.EventPlanner.WebApi\Omishro.EventPlanner.WebApi.csproj", "{E384F48E-C7AF-45B4-AA55-A5019F90D20B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E5134B5-37FB-4A4F-9B69-2D2E62D74C50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E5134B5-37FB-4A4F-9B69-2D2E62D74C50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E5134B5-37FB-4A4F-9B69-2D2E62D74C50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E5134B5-37FB-4A4F-9B69-2D2E62D74C50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7A27F2A-B6EE-4BD1-BE52-B29885496E56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7A27F2A-B6EE-4BD1-BE52-B29885496E56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7A27F2A-B6EE-4BD1-BE52-B29885496E56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7A27F2A-B6EE-4BD1-BE52-B29885496E56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80F4AC82-5095-4EFE-AA89-FE2E4A816176}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80F4AC82-5095-4EFE-AA89-FE2E4A816176}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80F4AC82-5095-4EFE-AA89-FE2E4A816176}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80F4AC82-5095-4EFE-AA89-FE2E4A816176}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4973DF51-8C29-4492-9717-0FEDED49E6AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4973DF51-8C29-4492-9717-0FEDED49E6AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4973DF51-8C29-4492-9717-0FEDED49E6AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4973DF51-8C29-4492-9717-0FEDED49E6AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1A5E89C-679F-4E8A-82CB-39EF1A79CC25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1A5E89C-679F-4E8A-82CB-39EF1A79CC25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1A5E89C-679F-4E8A-82CB-39EF1A79CC25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1A5E89C-679F-4E8A-82CB-39EF1A79CC25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E384F48E-C7AF-45B4-AA55-A5019F90D20B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E384F48E-C7AF-45B4-AA55-A5019F90D20B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E384F48E-C7AF-45B4-AA55-A5019F90D20B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E384F48E-C7AF-45B4-AA55-A5019F90D20B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EE82DF4A-B74A-4884-AE38-3ACAC29EEF3F} = {C20C233D-226D-4258-9DCC-4B453BF6E078}
+		{6F9AA178-8D55-47E4-AB88-6C3150B42103} = {C20C233D-226D-4258-9DCC-4B453BF6E078}
+		{A52B7ADE-4D2E-44CB-9BAD-E8C14D5F49BC} = {C20C233D-226D-4258-9DCC-4B453BF6E078}
+		{F5830340-45FA-4679-8311-E45317EA7E17} = {C20C233D-226D-4258-9DCC-4B453BF6E078}
+		{3E5134B5-37FB-4A4F-9B69-2D2E62D74C50} = {EE82DF4A-B74A-4884-AE38-3ACAC29EEF3F}
+		{D7A27F2A-B6EE-4BD1-BE52-B29885496E56} = {EE82DF4A-B74A-4884-AE38-3ACAC29EEF3F}
+		{80F4AC82-5095-4EFE-AA89-FE2E4A816176} = {6F9AA178-8D55-47E4-AB88-6C3150B42103}
+		{4973DF51-8C29-4492-9717-0FEDED49E6AE} = {6F9AA178-8D55-47E4-AB88-6C3150B42103}
+		{C1A5E89C-679F-4E8A-82CB-39EF1A79CC25} = {F5830340-45FA-4679-8311-E45317EA7E17}
+		{E384F48E-C7AF-45B4-AA55-A5019F90D20B} = {A52B7ADE-4D2E-44CB-9BAD-E8C14D5F49BC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2B05FFBD-9E71-4309-8025-1FA8387F8F87}
+	EndGlobalSection
+EndGlobal
