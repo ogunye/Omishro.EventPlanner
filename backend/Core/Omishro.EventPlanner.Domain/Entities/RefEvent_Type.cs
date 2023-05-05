@@ -16,5 +16,8 @@ namespace Omishro.EventPlanner.Domain.Entities
 
         public ICollection<EventInfo>? EventInfo { get; set; }
 
+
+        
+
     }
 }
